@@ -1,0 +1,4 @@
+1. Batch_Download - It is the main file where we have to run the file to extract data
+2.config - This file consists of from which period the data has to be fetched also here we can define the time intervals either its 1 min or 5 min etc
+3.download_Historical_data - It fetches the data in split format and combines all the data together
+4.symbols.txt - Here we have to define the symbols (i.e stock name) for which the data has to be fetched... This file will be called in the main file (Batch_download) to make sure which scripts data has to be fetched
